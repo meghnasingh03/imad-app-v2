@@ -23,6 +23,7 @@ button.onclick = function(){
     }
     }
     };  
+};
     request.open('GET','http://meghnasingh03.imad.hasura-app.io/counter',true);
     request.send(null);
     var nameInput=document.getElementById('name');
@@ -36,5 +37,5 @@ button.onclick = function(){
         }
         var ul=document.getElementById('namelist');
         ul.innerHTML=list;
-    }
+    
 };
