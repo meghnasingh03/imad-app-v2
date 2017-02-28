@@ -23,6 +23,6 @@ button.onclick = function(){
     }
     }
     };  
-    request.open('GET','http:/http://meghnasingh03.imad.hasura-app.io/counter',true);
+    request.open('GET','http://meghnasingh03.imad.hasura-app.io/counter',true);
     request.send(null);
 };
